@@ -16,7 +16,7 @@
 				<p class="mt-3 text-p-base text-ink-gray-6">
 					{{
 						__(
-							'Answer a few quick questions so we can set Frappe Learning up for you'
+							'Answer a few quick questions so we can set Ace It Up up for you'
 						)
 					}}
 				</p>
@@ -105,7 +105,7 @@ const labels = computed(() => ({
 const questions = computed(() => [
 	{
 		key: 'usage_context',
-		title: __('Where will you be using Frappe Learning?'),
+		title: __('Where will you be using Ace It Up?'),
 		options: [
 			{ label: __('School'), value: 'School' },
 			{

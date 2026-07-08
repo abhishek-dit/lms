@@ -1,9 +1,9 @@
 [project]
 name = "lms"
 authors = [
-    { name = "Frappe Technologies Pvt Ltd", email = "developers@frappe.io"}
+    { name = "Ace It Up", email = "abhishek.vk@digitalitup.in"}
 ]
-description = "Easy to use, open source, Learning Management System"
+description = "Ace It Up - Learning Management System"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
@@ -82,7 +82,7 @@ index_html_path = "../lms/www/_lms.html"
 
 
 [project.urls]
-Homepage = "https://frappe.io/learning"
-Repository = "https://github.com/frappe/lms.git"
-"Bug Reports" = "https://github.com/frappe/lms/issues"
+Homepage = "https://aceitup.in"
+Repository = "https://github.com/abhishek-dit/lms.git"
+"Bug Reports" = "https://github.com/abhishek-dit/lms/issues"
 

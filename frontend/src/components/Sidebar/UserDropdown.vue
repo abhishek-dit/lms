@@ -34,7 +34,7 @@
 							>
 								{{ branding.data?.app_name }}
 							</span>
-							<span v-else> Learning </span>
+							<span v-else> Ace It Up </span>
 						</div>
 						<div
 							v-if="userResource.data"
@@ -235,7 +235,7 @@ const clearDemoDataConfirmation = () => {
 	$dialog({
 		title: __('Confirm clearing demo data?'),
 		message: __(
-			'Are you sure you want to clear the demo data? This would delete the course "A guide  to Frappe Learning" along with all its associated data. This action cannot be undone.'
+			'Are you sure you want to clear the demo data? This would delete the course "A guide  to Ace It Up" along with all its associated data. This action cannot be undone.'
 		),
 		actions: [
 			{
